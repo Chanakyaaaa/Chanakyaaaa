@@ -1,0 +1,16 @@
+INPUT:
+n=int(input('enter number'))
+k=n
+for i in range(1,n+1):
+    for j in range(0,k):
+        print('*',end=" ")
+    print('')
+    k-=1
+
+OUTPUT:
+enter number5
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
