@@ -1,0 +1,20 @@
+INPUT:
+NumList = []
+Number = int(input("Please enter element length in list "))
+for i in range(1, Number + 1):
+    value = int(input("Please enter the Value of %d Element : " %i))
+    NumList.append(value)
+ 
+print("The Smallest Element in this List is : ", min(NumList))
+print("The Largest Element in this List is : ", max(NumList))
+
+OUTPUT:
+How many element in list, Please enter num :-  5
+Please enter the Value of 1 Element :  500
+Please enter the Value of 2 Element :  653
+Please enter the Value of 3 Element :  895
+Please enter the Value of 4 Element :  565
+Please enter the Value of 5 Element :  568
+
+The Smallest Element in this List is :  500
+The Largest Element in this List is :  895
