@@ -1,0 +1,31 @@
+INPUT:
+def reverseList(NumList, num):
+    j = Number - 1
+    i = 0
+    while(i < j):
+        temp = NumList[i]
+        NumList[i] = NumList[j]
+        NumList[j] = temp
+        i = i + 1
+        j = j - 1
+    
+NumList = []
+Number = int(input("Please enter the Total Number of Elements: "))
+for i in range(1, Number + 1):
+    value = int(input("%d Element : " %i))
+    NumList.append(value)
+    
+reverseList(NumList, Number)
+print("\nThe Result =  ", NumList)
+Please enter the Total
+
+Output:
+Please enter the Total Number of Elements: 5
+1 Element : 10
+2 Element : 20
+3 Element : 30
+4 Element : 40
+5 Element : 50
+
+The Result =   [50, 40, 30, 20, 10]
+This program reverses the List items
