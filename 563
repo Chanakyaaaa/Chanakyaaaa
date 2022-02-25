@@ -1,0 +1,26 @@
+INPUT:
+t=[]
+l=[]
+n=int(input('enter size:'))
+for j in range(n):
+    l.append(int(input()))
+for i in range(n):
+    if l[i]!=0:
+        t.insert(0,l[i])
+    else:
+        t.append(l[i])
+print(t)
+
+OUTPUT:
+enter size:5
+
+2
+
+0
+
+3
+
+0
+
+9
+[9, 3, 2, 0, 0]
