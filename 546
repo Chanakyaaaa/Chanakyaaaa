@@ -1,0 +1,23 @@
+INPUT:
+n=int(input('enter size:'))
+l=[]
+c=0
+for h in range(n):
+    l.append(int(input()))
+for i in range(n):
+    f=0
+    for j in range(2,l[i]):
+        if l[i]%j==0:
+            f=1
+    if f==0 and l[i]!=1:
+        c+=1
+print('total primes:',c)
+
+OUTPUT:
+enter size:5
+1
+2
+3
+4
+5
+total primes: 3
