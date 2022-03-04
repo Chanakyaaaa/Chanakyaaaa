@@ -1,0 +1,8 @@
+INPUT:
+A= ("satya",2,"pk")
+B= (1, "Hi", 3)
+c=A+B
+print(c)
+
+OUTPUT:
+('satya', 2, 'pk', 1, 'Hi', 3)
